@@ -4,7 +4,11 @@ cd Effective_Mobile_DevOps
 ```
 
 ```bash
-docker compose up --build -d
+docker-compose up --build -d
+```
+#### Потушить
+```bash
+docker-compose down -v
 ```
 
 ### Проверка healthcheck
